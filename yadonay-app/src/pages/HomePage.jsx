@@ -241,6 +241,6 @@ function HomePage({ onSignIn, onRegister }) {
       </footer>
     </main>
   )
-}
+
 
 export default HomePage
