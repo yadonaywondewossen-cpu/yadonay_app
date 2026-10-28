@@ -11,21 +11,7 @@ function SignInPage({ onClose, onModeChange }) {
 
   return (
     <>
-      <a className="wordmark auth-wordmark" href="#home" onClick={onClose} aria-label="Yadonay, home">
-        y<span>.</span>
-      </a>
-      <div className="eyebrow">GOOD TO HAVE YOU HERE</div>
-      <h2 id="signin-title">Welcome back.</h2>
-      <p className="auth-description">Sign in to continue to your account.</p>
-      <form className="auth-form" onSubmit={handleSubmit}>
-        <label>
-          Email address
-          <input
-            type="email"
-            name="email"
-            placeholder="you@example.com"
-            autoComplete="email"
-            required
+    
           />
         </label>
         <label>
