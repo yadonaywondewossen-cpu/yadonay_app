@@ -240,7 +240,7 @@ function HomePage({ onSignIn, onRegister }) {
         <span>© {new Date().getFullYear()}</span>
       </footer>
     </main>
-  )
+  
 
 
 export default HomePage
