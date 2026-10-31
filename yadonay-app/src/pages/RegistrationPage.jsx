@@ -79,6 +79,6 @@ function RegistrationPage({ onClose, onModeChange }) {
       <p className="auth-privacy">Preview only — this form does not send or store your details.</p>
     </>
   )
-}
+
 
 export default RegistrationPage
