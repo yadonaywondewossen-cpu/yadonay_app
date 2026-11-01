@@ -241,6 +241,26 @@ function HomePage({ onSignIn, onRegister }) {
       </footer>
     </main>
     tuftkugvufk7 hjk
+
+  const projects = [
+  {
+    number: '01',
+    name: 'Sonder',
+    type: 'Brand & digital experience',
+    description:
+      'A thoughtful identity and online home for a new kind of neighborhood stay.',
+    className: 'sonder',
+    tags: ['Brand strategy', 'Web design', 'Development'],
+  },
+  {
+    number: '02',
+    name: 'Morrow',
+    type: 'Product design',
+    description:
+      'Making personal finance feel a little more human, one small step at a time.',
+    className: 'morrow',
+    tags: ['Product design', 'Prototyping', 'Development'],
+  },
   
 
 
