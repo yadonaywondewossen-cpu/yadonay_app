@@ -81,4 +81,30 @@ function RegistrationPage({ onClose, onModeChange }) {
   )
 
 
+        />
+        </label>
+        <label>
+          Confirm password
+          <input
+            type="password"
+            name="confirmPassword"
+            placeholder="Enter your password again"
+            autoComplete="new-password"
+            minLength={8}
+            required
+          />
+        </label>
+        <button className="auth-submit" type="submit">
+          Create account <ArrowIcon />
+        </button>
+        {notice && <p className="auth-notice" role="status">{notice}</p>}
+      </form>
+      <p className="auth-switch">
+        Already have an account?{' '}
+        <button type="button" onClick={() => onModeChange('signin')}>Sign in</button>
+      </p>
+      <p className="auth-privacy">Preview only — this form does not send or store your details.</p>
+    </>
+  )
+
 export default RegistrationPage
