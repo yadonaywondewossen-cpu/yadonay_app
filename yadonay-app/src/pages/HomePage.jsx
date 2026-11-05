@@ -240,6 +240,53 @@ function HomePage({ onSignIn, onRegister }) {
         <span>© {new Date().getFullYear()}</span>
       </footer>
     </main>
+    const projects = [
+  {
+    number: '01',
+    name: 'Sonder',
+    type: 'Brand & digital experience',
+    description:
+      'A thoughtful identity and online home for a new kind of neighborhood stay.',
+    className: 'sonder',
+    tags: ['Brand strategy', 'Web design', 'Development'],
+  },
+  {
+    number: '02',
+    name: 'Morrow',
+    type: 'Product design',
+    description:
+      'Making personal finance feel a little more human, one small step at a time.',
+    className: 'morrow',
+    tags: ['Product design', 'Prototyping', 'Development'],
+  },
+  {
+    number: '03',
+    name: 'Form & Field',
+    type: 'E-commerce',
+    description:
+      'A considered shopping experience for objects made to last.',
+    className: 'field',
+    tags: ['Art direction', 'E-commerce', 'Development'],
+  },
+]
+
+const services = [
+  {
+    number: '01',
+    title: 'Digital experiences',
+    description: 'Websites and products that feel clear, useful, and a little unexpected.',
+  },
+  {
+    number: '02',
+    title: 'Visual identity',
+    description: 'Distinctive brand systems built to work everywhere your audience finds you.',
+  },
+  {
+    number: '03',
+    title: 'Creative development',
+    description: 'Thoughtful, responsive front ends that bring good ideas to life.',
+  },
+]
    
 
 export default HomePage
