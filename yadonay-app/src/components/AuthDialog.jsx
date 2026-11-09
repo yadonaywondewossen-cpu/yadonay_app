@@ -39,6 +39,24 @@ function AuthDialog({ mode, onClose, onModeChange }) {
           onModeChange={onModeChange}
         />
       )}
+      function AuthDialog({ mode, onClose, onModeChange }) {
+  const dialogRef = useRef(null)
+
+  useEffect(() => {
+    const dialog = dialogRef.current
+    if (dialog && !dialog.open) dialog.showModal()
+  }, [])
+
+  return (
+    <dialog
+      className="auth-dialog"
+      ref={dialogRef}
+      aria-labelledby={mode === 'register' ? 'register-title' : 'signin-title'}
+      onClose={onClose}
+      onClick={(event) => {
+        if (event.target === event.currentTarget) event.currentTarget.close()
+      }}
+    >
     </dialog>
   )
 }
