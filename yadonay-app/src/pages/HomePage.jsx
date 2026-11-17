@@ -329,6 +329,22 @@ const services = [
     number: '03',
     name: 'Form & Field',
     type: 'E-commerce',
-   
+   const services = [
+  {
+    number: '01',
+    title: 'Digital experiences',
+    description: 'Websites and products that feel clear, useful, and a little unexpected.',
+  },
+  {
+    number: '02',
+    title: 'Visual identity',
+    description: 'Distinctive brand systems built to work everywhere your audience finds you.',
+  },
+  {
+    number: '03',
+    title: 'Creative development',
+    description: 'Thoughtful, responsive front ends that bring good ideas to life.',
+  },
+]
 
 export default HomePage
