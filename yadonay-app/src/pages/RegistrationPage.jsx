@@ -33,6 +33,13 @@ function RegistrationPage({ onClose, onModeChange }) {
             placeholder="Your name"
             autoComplete="name"
             required
+          />  <input
+            type="password"
+            name="confirmPassword"
+            placeholder="Enter your password again"
+            autoComplete="new-password"
+            minLength={8}
+            required
           />
         </label>
         <label>
