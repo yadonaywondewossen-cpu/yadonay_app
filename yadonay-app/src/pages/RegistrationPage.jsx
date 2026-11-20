@@ -27,6 +27,15 @@ function RegistrationPage({ onClose, onModeChange }) {
       <form className="auth-form" onSubmit={handleSubmit}>
         <label>
           Full name
+          <label>
+          Email address
+          <input
+            type="email"
+            name="email"
+            placeholder="you@example.com"
+            autoComplete="email"
+            required
+          />
           <input
             type="text"
             name="name"
@@ -42,15 +51,7 @@ function RegistrationPage({ onClose, onModeChange }) {
             required
           />
         </label>
-        <label>
-          Email address
-          <input
-            type="email"
-            name="email"
-            placeholder="you@example.com"
-            autoComplete="email"
-            required
-          />
+        
         </label>
         <label>
           Password
