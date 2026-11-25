@@ -19,7 +19,15 @@ function AuthDialog({ mode, onClose, onModeChange }) {
       }
     }
   }, [])
-
+<button
+        className="auth-close"
+        type="button"
+        aria-label="Close authentication dialog"
+        onClick={() => dialogRef.current?.close()}
+      >
+        <span />
+        <span />
+      </button>
   return (
     <dialog
       className="auth-dialog"
