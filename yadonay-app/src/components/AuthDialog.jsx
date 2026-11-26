@@ -44,6 +44,8 @@ function AuthDialog({ mode, onClose, onModeChange }) {
         }
       }}
     >
+
+          {mode === 'register' ? ( <RegistrationPage onClose={() => dialogRef.current?.close()} onModeChange={onModeChange} /> ) : ( <SignInPage onClose={() => dialogRef.current?.close()} onModeChange={onModeChange
       <button
         className="auth-close"
         type="button"
