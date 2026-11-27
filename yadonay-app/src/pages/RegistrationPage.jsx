@@ -43,7 +43,17 @@ function RegistrationPage({ onClose, onModeChange }) {
             autoComplete="email"
             required
           />
-           <input
+           <input<label>
+          Confirm password
+          <input
+            type="password"
+            name="confirmPassword"
+            placeholder="Enter your password again"
+            autoComplete="new-password"
+            minLength={8}
+            required
+          />
+        </label>
             type="password"
             name="confirmPassword"
             placeholder="Enter your password again"
